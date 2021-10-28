@@ -1,0 +1,70 @@
+body {
+  font-family: "Roboto Slab", serif;
+}
+.card {
+  height: max-content;
+}
+
+.hero {
+  background-color: rgb(238, 238, 238);
+}
+.navbar-brand {
+  color: #0088cc;
+}
+.aboutme {
+  background-color: rgb(255, 255, 255);
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+
+#aboutme {
+  height: 350px;
+  width: auto;
+  border-radius: 20px;
+}
+#aboutMeP {
+  font-weight: inherit;
+  font-size: 20px;
+}
+
+.cards {
+  background-color: #0088cc;
+  margin-top: 50px;
+  padding-top: 50px;
+  padding-bottom: 120px;
+}
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+  transition: 0.3s;
+  transition: transform 0.2s;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.7);
+}
+.contactMe {
+  background-color: rgb(238, 238, 238);
+
+  background-size: cover;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+#contactheader {
+  color: black;
+}
+#projects {
+  color: white;
+}
+.responsive {
+  height: 100%;
+  width: auto;
+}
+p {
+  font-weight: 100;
+}
+.formback {
+  /* background-color: rgb(0, 0, 0, 0.7); */
+  padding: 20px;
+  height: 80%;
+  width: 60%;
+}
